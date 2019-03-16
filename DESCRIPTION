@@ -1,0 +1,24 @@
+Package: MUNA
+Type: Package
+Title: MUNA: A Multiplex Network Analysis Library
+Version: 1.0
+Date: 2017-04-07
+Author: Issam Falih <issam.falih@lipn.univ-paris13.fr>
+Maintainer: Issam Falih <issam.falih@lipn.univ-paris13.fr>
+Depends: R(>= 3.2.1),
+         igraph(>= 1.0.0), 
+	 utils,
+         methods
+License: GPL
+LazyData: TRUE
+Description: MUNA: a MUltiplex Network Analysis library that we have developed
+    on top of igraph network analysis package. In its current version, MUNA provides
+    primitives to build, edit and modify multiplex networks. It also provides a
+    bunch of functions computing basic metrics on multiplex networks. However, the
+    most interesting functionality provided by MUNA is probably the wide variety
+    of available community detection algorithms. Actually, the library implements
+    different approaches for community detection including: partition aggregation
+    approaches, layer aggregation approaches and direct multiplex approaches such
+    as the Genlouvain and Muxlicod algorithms. It also offers an extended list of
+    multiplex community evaluation indexes.
+RoxygenNote: 6.1.1
